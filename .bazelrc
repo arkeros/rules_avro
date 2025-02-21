@@ -4,3 +4,6 @@
 #######################
 build --color=yes --verbose_failures
 test --color=yes --verbose_failures --test_output=errors --test_verbose_timeout_warnings
+
+# FIXME
+common --incompatible_disallow_struct_provider_syntax=false
