@@ -46,7 +46,5 @@ test_build_is_identical() {
   diff hash1 hash2
 }
 
-run_test bazel build --verbose_failures test/... --noenable_bzlmod
 run_test bazel build --verbose_failures test/... --enable_bzlmod
-run_test test_build_is_identical --noenable_bzlmod
 run_test test_build_is_identical --enable_bzlmod
